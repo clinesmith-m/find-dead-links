@@ -12,6 +12,5 @@ ${INSTALL_DIR}/find-dead-links: env
 env: ${PWD}/env/
 ${PWD}/env/:
 	virtualenv -p python3 env
-	source env/bin/activate
-	pip install requests
-	pip install beautifulsoup4
+	./env/bin/pip install requests
+	./env/bin/pip install beautifulsoup4
